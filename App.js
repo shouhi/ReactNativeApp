@@ -6,7 +6,7 @@ import Hello from "./src/components/Hello";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Hello>World</Hello>
+      <Hello bang={true}>World</Hello>
       <Text>Open up App.js to start working on your app!</Text>
       <StatusBar style="auto" />
     </View>
